@@ -52,7 +52,7 @@ padding: 50px 0 20px;
 .top-cloud{
   position: absolute;
   right:20%;
-  top:10%;
+  top:20%;
 
 }
 .bottom-cloud{
@@ -65,8 +65,8 @@ a{
   margin:10px 20px;
   text-decoration: none;
 }
-a:hover{
-  color: #EAF6F6;
+.footer-link:hover{
+  color: #EAF6F6!important;
 }
 .footer-link{
   margin-right: 10px;
@@ -84,7 +84,7 @@ a:hover{
   margin-right: 30px;
 }
 .cpp{
-  width: 12.5rem;
+  width: 11.5rem;
   height: 12.5rem;
   float: right;
   margin-left: 30px;
@@ -92,6 +92,8 @@ a:hover{
 .intro{
   width: 30%;
   margin: auto;
+  padding-top: 3%;
+  padding-bottom: 10%;
 }
 .football{
   width: 40%;
@@ -139,4 +141,44 @@ a:hover{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+.projects{
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+}
+.Doggo{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-left: 30px;
+
+}
+.myprojects{
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: center;
+}
+/*Nav bar*/
+.navbar-brand{
+color: #11999E!important;
+font-weight: normal!important;
+font-family: 'Montserrat', sans-serif!important;
+font-size: 1.5rem;
+}
+.nav-link{
+  color: #11999E!important;
+  font-weight: normal!important;
+  font-family: 'Montserrat', sans-serif!important;
+
+}
+.mountain{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contact-me{
+  padding-top: 5%;
+}
+.nav-link:hover{
+    color: #343A40!important;
 }
